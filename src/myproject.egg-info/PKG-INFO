@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: myproject
+Version: 0.1.0
+Summary: A package that scrapes Wikipedia, processes the data, and logs activity with rich logging.
+Home-page: https://github.com/yourusername/myproject
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.0
+Requires-Dist: pandas>=1.2.0
+Requires-Dist: beautifulsoup4>=4.9.0
+Requires-Dist: rich>=10.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# MyProject
+
+A production-ready Python project that scrapes data from Wikipedia, processes the data, and logs all activities using the Rich logging library.
+
+## Features
+- **Modular Design:** Organized into clear components (scraper, data handler, logger, etc.).
+- **Rich Logging:** Using the Rich library to produce colorful, well-structured logs.
+- **Automated Testing:** A test suite implemented with pytest.
+- **Easy Packaging:** Packaged with setuptools for distribution.
+
+## Installation
+
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
